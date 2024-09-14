@@ -7,12 +7,6 @@ keywords: "your keywords, separated by commas"
 skills: "Games Programmer"
 meta_author: O'Hanlon Ethan
 
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
 # Contact form:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
@@ -25,15 +19,15 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: a4ac86 #Top / Bottom 
-  primary-rgb: "166,138,100" # Hover over porfolio pieces
-  secondary: 414833 #Header / About
-  secondary-dark: 333d29 #Bottom / Section Highlight
+  primary: 2f2f2f # About / Buttons 
+  primary-rgb: "0, 92, 41" # Star/ Modal Hover 
+  secondary: 2f2f2f #Nav Bar / Down Button / Title Text / Social Links 
+  secondary-dark: 005c29 #Section Highlight / Copyright 005c29
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Ethan O'Hanlon
+  CV: CV
   social: Social Links
   credits: Credits
 
@@ -43,11 +37,12 @@ social:
     url: https://www.linkedin.com/in/ethanohanlon/
   - title: github
     url: https://github.com/EOHanlon243
+  - title: itch
+    url: https://eohanlon243.itch.io/
 
 # Postal address (add as many lines as necessary)
-#address:
- # - line: 3481 Melrose Place
-  #- line: Beverly Hills, CA 90210
+address:
+  - line: CV on request
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'

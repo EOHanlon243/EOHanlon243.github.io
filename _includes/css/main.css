@@ -64,7 +64,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 hr.star-primary {
@@ -72,7 +72,7 @@ hr.star-primary {
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.secondary-dark }};
     background-color: #fff;
 }
 
@@ -83,7 +83,11 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background-color: #fff;
+    background-image: url("img/header.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header .container {
@@ -94,6 +98,7 @@ header .container {
 header img {
     display: block;
     margin: 0 auto 20px;
+    border-radius: 50%
 }
 
 header .intro-text .name {
@@ -293,8 +298,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
-    background: #fff;
+    color: #{{ site.color.secondary-dark }};
 }
 
 .floating-label-form-group {
