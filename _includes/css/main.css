@@ -10,6 +10,7 @@ body {
 
 p {
     font-size: 20px;
+    color:#000;
 }
 
 p.small {
@@ -65,6 +66,7 @@ hr.star-light {
 hr.star-light:after {
     color: #fff;
     background-color: #{{ site.color.secondary-dark }};
+    border-radius:15px
 }
 
 hr.star-primary {
@@ -85,6 +87,8 @@ header {
     color: #fff;
     background-color: #fff;
     background-image: url("img/header.gif");
+	background-max-width: 100%;
+	background-height: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -98,7 +102,10 @@ header .container {
 header img {
     display: block;
     margin: 0 auto 20px;
-    border-radius: 50%
+    border-radius: 50%;
+	max-width: 100%;
+	width: 300px;
+	height: 300px;
 }
 
 header .intro-text .name {
@@ -189,6 +196,30 @@ section.success {
     color: #fff;
     background: #{{ site.color.primary }};
 }
+
+#about img {
+	margin-left: auto;
+    margin-right: auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	max-width: 100%;
+}
+
+#about div.row p{
+	text-align: left;
+}
+
+#about ul.gameList{
+	display: inline-block;
+    text-align: left;
+	}
+
+#about div.row{
+	margin: auto;
+	text-align: center;
+}
+
 
 @media(max-width:767px) {
     section {
@@ -431,6 +462,9 @@ footer .footer-below {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
+}
+.portfolio-modal .modal-content p {
+    text-align: left;
 }
 
 .portfolio-modal .modal-content img {
