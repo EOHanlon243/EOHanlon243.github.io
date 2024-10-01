@@ -10,8 +10,9 @@ modal-pagelink: https://www.kreekinteractive.com/
 project-date: October 2022
 category: Group Game | Personal Project
 ---
-Developed a playable demo in Unreal Engine 5 for an upcoming game ‘Sounds Like Rain’ showcased at game events including: Game Dev London Expo (GDLX) and WASD.
 
-Was responsible for implementing player movement features such as sprinting and jumping. Developed a robust weapons system to monitor and utilise multiple weapon types.
+During my time at University, I took a year out to work with a startup company, **Kreek Interactive** to developed a project under the name:  **Sounds Like Rain**. This game was developed over the course of the year, leading to a completed demo project at the end of the project. This demo was showcased across events such as **Game Dev London Expo (GDLX)** and **W.A.S.D** to great reception.
 
-Adapted well to a remote working environment. Had regular communication with my team and used problem-solving skills to effectively design and implement features for the demo.
+Developed in **Unreal Engine 5** to allow for our artists to utilise their experimental shader that originally inspired the idea of this project. As this was a larger project, with our team mostly workign *remotely* with many opportunities of collaboration, we utilised **Jira** along side **Trello** to organised tasks and reponsibilities whilst establishing milestones over the year of development.
+
+My responsibilites for this project revolved around player interaction and general control gameplay. The main feature being a robust weapons system to monitor and switch between different weapon. Other responsibilites includes system UI elements such as settings, featuring audio settings and dynamic keybind changing.
